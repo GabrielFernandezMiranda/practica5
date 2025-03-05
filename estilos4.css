@@ -40,8 +40,15 @@ body {
 #main{
     grid-column: 2 / 3;
     padding: 15px;
-    background-color: rgba(153,127,40, 1);
+    background-color: rgb(40, 153, 100);
     color: white;
+}
+
+#section-2{
+    grid-column: 2 / 3;
+    padding: 15px;
+    background-color: rgba(153,127,40, 1);
+    color: rgb(166, 174, 136);
 }
 #footer{
     grid-column: 1 / 4;
