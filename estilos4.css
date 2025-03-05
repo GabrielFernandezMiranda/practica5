@@ -18,16 +18,23 @@ body {
     color: white;
     grid-column: 1/4;
 }
+
+#nav{
+    padding: 15px;
+    background-color: rgb(94, 137, 180);
+    color: white;
+    grid-column: 1/4;
+}
 #aside-left{
     grid-column: 1 / 2;
     padding: 15px;
-    background-color: rgba(144,94,65, 1);
+    background-color: rgb(144, 65, 127);
     color: white;
 }
 #aside-right{
     grid-column: 3 / 4;
     padding: 15px;
-    background-color: rgba(144,94,65, 1);
+    background-color: rgb(144, 65, 141);
     color: white;
 }
 #main{
