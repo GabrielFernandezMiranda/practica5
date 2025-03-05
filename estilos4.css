@@ -47,7 +47,7 @@ body {
 #section-2{
     grid-column: 2 / 3;
     padding: 15px;
-    background-color: rgba(153,127,40, 1);
+    background-color: rgb(40, 153, 121);
     color: rgb(166, 174, 136);
 }
 #footer{
