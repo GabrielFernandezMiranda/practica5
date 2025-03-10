@@ -28,13 +28,13 @@ body {
 #aside-left{
     grid-column: 1 / 2;
     padding: 15px;
-    background-color: rgb(144, 65, 127);
+    background-color: rgb(95, 146, 185);
     color: white;
 }
 #aside-right{
     grid-column: 3 / 4;
     padding: 15px;
-    background-color: rgb(144, 65, 141);
+    background-color: rgb(76, 153, 163);
     color: white;
 }
 #main{
@@ -44,11 +44,35 @@ body {
     color: white;
 }
 
-#section-2{
+#parrafos{
     grid-column: 2 / 3;
-    padding: 15px;
-    background-color: rgb(40, 153, 121);
-    color: rgb(166, 174, 136);
+    padding: 10px;
+    background-color: rgba(153, 102, 40, 0.781);
+    color: rgb(249, 249, 246);
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed rgb(5, 5, 5); /* Línea punteada */
+    margin: 10px 0;
+  }
+  #divididor{
+    grid-column: 2 / 3;
+    padding: 10px;
+    background-color: rgba(175, 113, 82, 0.781);
+    color: rgb(249, 249, 246);
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 }
 #footer{
     grid-column: 1 / 4;
