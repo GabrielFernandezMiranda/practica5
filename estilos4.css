@@ -74,6 +74,14 @@ hr {
     gap: 20px;
     
 }
+#texto-importante{
+    grid-column: 2 / 3;
+    padding: 10px;
+    background-color: rgba(170, 83, 39, 0.781);
+    color: rgb(249, 249, 246);
+    border: 2px solid black;
+    border-radius: 5px;  
+}
 #footer{
     grid-column: 1 / 4;
     padding: 15px;
